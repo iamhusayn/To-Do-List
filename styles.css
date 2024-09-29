@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    width: 50%;
+}
+
+
+.container {
+    width: 500px;
+    margin: 20px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border: 2px solid black;
+    outline: none;
+    font-size: large;
+    vertical-align: middle;
+}
+
+#addTodo {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    list-style: none;
+}
+
+
